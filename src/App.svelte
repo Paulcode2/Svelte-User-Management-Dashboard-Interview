@@ -54,7 +54,7 @@
     </div>
 
     <section class="card">
-      <UserTable {filteredUsers} on:delete={handleDelete} on:edit={handleEdit} />
+      <UserTable on:delete={handleDelete} on:edit={handleEdit} />
     </section>
   </main>
 

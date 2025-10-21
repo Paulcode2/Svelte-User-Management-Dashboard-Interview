@@ -2,7 +2,7 @@
   import { createEventDispatcher } from 'svelte';
 
   const dispatch = createEventDispatcher();
-  let searchQuery = '';
+  export let searchQuery = '';
 
   function handleInput(event) {
     searchQuery = event.target.value;

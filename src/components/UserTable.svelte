@@ -5,7 +5,7 @@
   import SearchBar from './SearchBar.svelte';
 
   let searchQuery = '';
-  let filteredUsers = [];
+ export let filteredUsers = [];
 
   // Modal state for editing
   let isEditing = false;
