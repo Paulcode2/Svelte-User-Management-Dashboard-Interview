@@ -19,6 +19,7 @@ user-management-dashboard
 │   ├── main.js
 │   ├── App.svelte
 │   ├── components
+│   │   ├── Header.svelte
 │   │   ├── UserTable.svelte
 │   │   ├── UserRow.svelte
 │   │   ├── UserForm.svelte
