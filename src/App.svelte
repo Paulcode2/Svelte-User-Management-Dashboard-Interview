@@ -45,7 +45,7 @@
     <div class="toolbar">
       <div class="search-wrap">
         <label class="search-label">Search Users:</label>
-        <SearchBar bind:searchQuery />
+        <!-- <SearchBar bind:searchQuery /> -->
       </div>
 
       <div class="actions">

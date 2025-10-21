@@ -9,7 +9,7 @@
   --radius: 10px;
 }
 
-/* dark mode variables applied when <html> has .dark */
+/* Dark bg */
 html.dark {
   --bg: #071122;
   --card: #0b1622;
@@ -237,6 +237,7 @@ select {
   color: white;
   box-shadow: 0 8px 22px rgba(16, 185, 129, 0.14);
 }
+
 
 /* responsive */
 @media (max-width: 760px) {
