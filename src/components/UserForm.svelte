@@ -6,19 +6,17 @@
 
   export let user = null;
 
-  // local state
   let name = '';
   let email = '';
   let role = '';
 
-  // sync when user prop changes
+  
   $: if (user) {
     name = user.name ?? '';
     email = user.email ?? '';
     role = user.role ?? '';
   } else {
-    // when adding new user, ensure fields are empty (only when opening)
-    // leave existing typed values alone otherwise
+
   }
 
   function close() {

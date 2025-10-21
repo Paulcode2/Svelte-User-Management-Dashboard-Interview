@@ -7,12 +7,10 @@
   let searchQuery = '';
   let filteredUsers = [];
 
-  // Make sure $users always has a valid array on mount
   onMount(() => {
     filteredUsers = Array.isArray($users) ? $users : [];
   });
 
-  // Reactive block with *safe guards*
   $: filteredUsers = (Array.isArray($users) ? $users : []).filter(user => {
     const name = (user?.name ?? '').toLowerCase();
     const email = (user?.email ?? '').toLowerCase();
