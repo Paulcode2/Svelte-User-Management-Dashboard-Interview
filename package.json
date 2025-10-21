@@ -1,0 +1,27 @@
+{
+  "name": "user-management-dashboard",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A simple User Management Dashboard built with Svelte.",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "svelte": "^3.44.0",
+    "vite": "^3.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.4.0",
+    "svelte-preprocess": "^5.1.4"
+  },
+  "keywords": [
+    "svelte",
+    "user management",
+    "dashboard"
+  ],
+  "author": "",
+  "license": "MIT"
+}
